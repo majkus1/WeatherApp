@@ -19,6 +19,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     padding: 10px;
+    color: wheat;
 }
 
 input {
@@ -115,4 +116,31 @@ button:hover {
     margin-top: 10px;
     font-size: 14px;
     color: tomato;
+}
+
+@media (max-width: 560px) {
+    .main-info {
+        flex-direction: column;
+    }
+    .main-info h3 {
+        font-size: 22px;
+    }
+    .main-info .photo {
+        width: 100px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .headings {
+        font-size: 10px;
+    }
+    .weather-info {
+        font-size: 10px;
+    }
 }
